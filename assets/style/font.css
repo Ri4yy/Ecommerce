@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.adaptive-size {
+    font-size: clamp(32px, 5cqi, 54px);
+}

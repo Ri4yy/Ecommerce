@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/svg" sizes="16x16" rel="icon" href="assets/img/icons/logoW.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/style/font.css">
+    <title>Qubit.</title>
+</head>
+
+<body class="roboto">
+    <header class="xl:container xl:mx-auto xl:px-0 px-3">
+        <nav class="flex justify-between items-center py-4">
+            <div class="flex items-center z-50"><a href="#"><img src="assets/img/icons/logo.svg" alt="logo"></a></div>
+            <div class="lg:flex lg:gap-6 hidden ">
+                <a href="#">Why Qubit?</a>
+                <a href="#">Products</a>
+                <a href="#">Solutions</a>
+                <a href="#">Customers</a>
+                <a href="#">Case studies</a>
+                <a href="#">Resources</a>
+                <a href="#">More</a>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="#" class="rounded-full bg-[#6F2CFF] hover:bg-[#5e21e3] py-4 px-8 text-white md:block hidden transition-all delay-100 duration-300">Book a demo</a>
+                <div class="flex items-center lg:hidden z-50" id="openMenu">
+                    <img src="assets/img/icons/menu.svg" alt="menu">
+                </div>
+                <a href="#" class="lg:flex hidden">Log In</a>
+            </div>
+            <div class="hidden absolute bg-cover py-20 bg-right-bottom h-screen md:top-[88px] top-[56px] flex flex-col items-center gap-8 -translate-x-1/2 left-1/2 w-full z-20" id="menu">
+                <a href="#" class="text-[#3C3D41] text-2xl tracking-widest uppercase">Why Qubit?</a>
+                <a href="#" class="text-[#3C3D41] text-2xl tracking-widest uppercase">Products</a>
+                <a href="#" class="text-[#3C3D41] text-2xl tracking-widest uppercase">Solutions</a>
+                <a href="#" class="text-[#3C3D41] text-2xl tracking-widest uppercase">Customers</a>
+                <a href="#" class="text-[#3C3D41] text-2xl tracking-widest uppercase">Case studies</a>
+                <a href="#" class="text-[#3C3D41] text-2xl tracking-widest uppercase">Resources</a>
+                <div class="flex gap-3 items-center">
+                    <a href="#" class="text-[#3C3D41] text-2xl tracking-widest uppercase">Log In</a>
+                    <a href="#" class="rounded-full bg-[#6F2CFF] hover:bg-[#5e21e3] py-4 px-8 text-white block md:hidden transition-all delay-100 duration-300">Book a demo</a>
+                </div>
+                <a href="#" class="text-[#3C3D41] text-2xl tracking-widest uppercase">More</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="bg-[url('assets/img/bg/bg.png')] bg-cover md:h-screen h-full py-32 md:py-0 bg-[43%] xl:bg-right flex flex-col">
+        <div class="xl:container xl:mx-auto xl:px-0 px-3 my-auto">
+            <div class="flex flex-col gap-6 md:w-1/3 w-4/5">
+                <p>Driving growth with personalization.</p>
+                <div class="flex flex-col adaptive-size font-bold leading-none">
+                    <p class="">Make ecommerce</p>
+                    <p class="text-[#6F2DFF]">More personal.</p>
+                </div>
+                <p class="text-lg">Hundreds of brands use <span class="font-semibold">Qubit CommerceAI</span> to power
+                    the next generation of product recommendations, badging
+                    and insights to build exceptional customer experiences.</p>
+                <div class="flex">
+                    <input type="text"
+                        class="border-2 border-[#6F2CFF] rounded-tl-full rounded-bl-full md:py-3 py-2 px-6 w-2/3 focus:border-[#5e21e3] focus:outline-none"
+                        placeholder="Enter your email">
+                    <button class="bg-[#6F2CFF] w-1/3 md:py-3 py-2 rounded-tr-full rounded-br-full text-white leading-none">Book a demo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="xl:container xl:mx-auto xl:px-0 px-3 flex flex-col items-center gap-3 my-10">
+        <p class="font-bold text-lg">Trusted by world-class brands.</p>
+        <div class="grid lg:grid-cols-8 lg:gap-16 md:grid-cols-4 md:gap-8 grid-cols-3 gap-4">
+            <a href="#"><img src="assets/img/partners/barbour.png" alt=""></a>
+            <a href="#"><img src="assets/img/partners/kate.png" alt=""></a>
+            <a href="#"><img src="assets/img/partners/brand2.svg" alt=""></a>
+            <a href="#"><img src="assets/img/partners/brand3.svg" alt=""></a>
+            <a href="#"><img src="assets/img/partners/brand4.svg" alt=""></a>
+            <a href="#"><img src="assets/img/partners/brand5.svg" alt=""></a>
+            <a href="#"><img src="assets/img/partners/brand6.svg" alt=""></a>
+            <a href="#"><img src="assets/img/partners/brand7.svg" alt=""></a>
+        </div>
+        <a href="#" class="font-bold border-b-2 border-[#6F2CFF] pb-1">Meet our customers ></a>
+    </div>
+
+    <div class="xl:container xl:mx-auto xl:px-0 px-3 flex md:flex-row flex-col my-20 gap-6 md:gap-0">
+        <div class="flex flex-col gap-8 md:w-1/2 items-center text-center md:text-left md:items-start my-auto">
+            <p class="font-bold text-4xl w-1/2">Grow 2.5x faster than
+                your competitors.
+            </p>
+            <div class="flex gap-4 items-center">
+                <a href="#" class="rounded-full bg-[#6F2CFF] text-white py-3 md:px-10 px-6">Book a demo</a>
+                <a href="#" class="font-bold border-b-2 border-[#6F2CFF] pb-1">Meet our customers ></a>
+            </div>
+            <div class="flex flex-col items-center">
+                <p>*PwC audited methodology.</p>
+                <a href="#" class="border-b-2 border-black pb w-fit">Read the report</a>
+            </div>
+        </div>
+        <div class="md:flex md:w-1/2 justify-between hidden">
+            <div class="w-1/2 border-l-2 border-[#E0E0E0] p-6 flex flex-col gap-20">
+                <div class="flex flex-col gap-4">
+                    <p class="font-bold text-4xl">140%</p>
+                    <p class="w-3/5">Qubit's top customers
+                        annual growth rate.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="font-bold text-4xl">$20bn</p>
+                    <p class="w-3/5">Online sales generated
+                        by our customers in 2020.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="font-bold text-4xl">364</p>
+                    <p class="w-3/5">Ecommerce stores are
+                        growing faster with Qubit.</p>
+                </div>
+            </div>
+            <div class="w-1/2 border-l-2 border-[#E0E0E0] p-6 flex flex-col gap-20">
+                <div class="flex flex-col gap-4">
+                    <p class="font-bold text-4xl">9.5m</p>
+                    <p class="w-3/5">Personalized experiences
+                        delivered every hour.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="font-bold text-4xl">4.4m</p>
+                    <p class="w-3/5">Shoppers influenced
+                        by Qubit every day.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="font-bold text-4xl">$1.6bn</p>
+                    <p class="w-3/5">Incremental revenue generated
+                        by our customers in 2020.*</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="xl:container xl:mx-auto xl:px-0 px-3 my-20 gap-10 flex flex-col items-center">
+        <div class="flex flex-col gap-6 text-center">
+            <p class="font-bold text-4xl">Qubit CommerceAI.</p>
+            <p class="text-lg">The new way to drive growth.</p>
+        </div>
+        <div class="grid md:grid-cols-3 grid-cols-2 justify-between md:gap-20 gap-8">
+            <div class="flex flex-col gap-4 items-center justify-center">
+                <img src="assets/img/icons/search.svg" alt="s">
+                <p class="font-bold text-lg">More insight</p>
+                <p class="text-center">Learn which products drive performance and which don't, through automated
+                    insights you can action.</p>
+            </div>
+            <div class="flex flex-col gap-4 items-center">
+                <img src="assets/img/icons/user.svg" alt="s">
+                <p class="font-bold text-lg">More insight</p>
+                <p class="text-center">Learn which products drive performance and which don't, through automated
+                    insights you can action.</p>
+            </div>
+            <div class="flex flex-col gap-4 items-center col-span-2 md:col-span-1">
+                <img src="assets/img/icons/effect.svg" alt="s">
+                <p class="font-bold text-lg">More insight</p>
+                <p class="text-center">Learn which products drive performance and which don't, through automated
+                    insights you can action.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[#F5F5F5] py-14 my-20">
+        <div class="xl:container xl:mx-auto xl:px-0 px-3 gap-16 flex flex-col items-center">
+            <div class="flex flex-col gap-6 text-center">
+                <p class="font-bold text-4xl">All the power. Easy to use.</p>
+                <p class="text-lg">By collaborating with real ecommerce teams we've built the next-gen personalization
+                    tool. No code. No clunkiness.</p>
+            </div>
+            <img src="assets/img/bg/bg3.png" alt="profile" class="rounded-lg w-2/3">
+            <div class="flex gap-4">
+                <a href="#"
+                    class="rounded-full md:px-10 px-3 py-3 bg-[#6F2CFF] text-white hover:bg-[#5e21e3] transition-all delay-100 duration-300">See
+                    products</a>
+                <a href="#"
+                    class="rounded-full md:px-10 px-3 py-3 bg-white text-[#6F2CFF] hover:bg-[#f6f6f6] transition-all delay-100 duration-300 shadow-md">Book
+                    a demo</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="xl:container xl:mx-auto xl:px-0 px-3 my-20 gap-10 flex flex-col items-center">
+        <div class="flex flex-col text-center">
+            <p class="font-bold text-4xl">What you can do with Qubit.</p>
+        </div>
+        <div class="grid md:grid-cols-3 grid-cols-2 md:gap-14 gap-2">
+            <div class="flex flex-col gap-6 items-center">
+                <img src="assets/img/icons/rec.svg" alt="rec">
+                <p class="text-lg font-bold text-center">1:1 Product recommendations</p>
+                <p class="text-center w-2/3">Use deep learning recommendations to engage customers in seconds.</p>
+            </div>
+            <div class="flex flex-col gap-6 items-center">
+                <img src="assets/img/icons/square.svg" alt="square">
+                <p class="text-lg font-bold text-center ">1:1 Product badging</p>
+                <p class="text-center w-2/3">Guide discovery with personalized product badging. Push sales with social
+                    proofing.</p>
+            </div>
+            <div class="flex flex-col gap-6 items-center">
+                <img src="assets/img/icons/circle.svg" alt="circle">
+                <p class="text-lg font-bold text-center ">Personalized content</p>
+                <p class="text-center w-2/3">Your customers are unique. Present them with content that shows you know
+                    them.</p>
+            </div>
+            <div class="flex flex-col gap-6 items-center">
+                <img src="assets/img/icons/search.svg" alt="search">
+                <p class="text-lg font-bold text-center ">Product insights</p>
+                <p class="text-center w-2/3">A platform packed with insights helping you discover the hard hitting
+                    things you can do next.</p>
+            </div>
+            <div class="flex flex-col gap-6 items-center">
+                <img src="assets/img/icons/plate.svg" alt="plate">
+                <p class="text-lg font-bold text-center ">CommerceAI</p>
+                <p class="text-center w-2/3">Your customer's behavioral data is telling you a story. Use predictive and
+                    affinity based algorithms to serve them better.</p>
+            </div>
+            <div class="flex flex-col gap-6 items-center">
+                <img src="assets/img/icons/layer.svg" alt="layer">
+                <p class="text-lg font-bold text-center ">Platform integrations</p>
+                <p class="text-center w-2/3">Connect Qubit to any tool via API. Import data or trigger an experience on
+                    any platform.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[#F5F5F5] py-16 my-20">
+        <div class="xl:container xl:mx-auto xl:px-0 px-3 gap-16 flex flex-col items-center">
+            <div class="flex flex-col gap-6 text-center">
+                <p class="font-bold text-4xl">Trusted by leading brands.</p>
+            </div>
+            <div class="swiper w-full">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide h-full">
+                        <div class="flex flex-col shadow-lg bg-white rounded-lg">
+                            <img src="assets/img/bg/cliniq.png" alt="cliniq">
+                            <div class="flex flex-col py-6 px-16 items-center gap-3 grow">
+                                <img src="assets/img/bg/clin.png" alt="clin">
+                                <p class="font-bold text-lg text-[#6F2CFF] text-center w-10/12">Clinique builds
+                                    relationships with
+                                    millions of customers each year.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide h-full">
+                        <div class="flex flex-col shadow-lg bg-white rounded-lg">
+                            <img src="assets/img/bg/river.png" alt="river">
+                            <div class="flex flex-col py-6 px-16 items-center gap-3 grow">
+                                <img src="assets/img/bg/island.png" alt="island">
+                                <p class="font-bold text-lg text-[#6F2CFF] text-center w-10/12 grow-0">River Island transforms
+                                    the
+                                    customer experience with personalization.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide h-full">
+                        <div class="flex flex-col shadow-lg bg-white rounded-lg">
+                            <img src="assets/img/bg/mm.png" alt="mm">
+                            <div class="flex flex-col py-6 px-16 items-center gap-3 grow">
+                                <img src="assets/img/bg/and.png" alt="and">
+                                <p class="font-bold text-lg text-[#6F2CFF] text-center w-10/12">MandM Direct drives
+                                    increase in
+                                    revenue with deep learning recs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev text-[#6F2CFF] md:block hidden"></div>
+                <div class="swiper-button-next text-[#6F2CFF] md:block hidden"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="xl:container xl:mx-auto xl:px-0 px-3 gap-16 my-20 flex flex-col items-center">
+        <div class="flex flex-col gap-6 text-center">
+            <p class="font-bold text-4xl">We specialize in your industry.</p>
+            <p class="text-lg">Learn how we are delivering personalization at scale across sectors.</p>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-4 grid-cols-1 sm:gap-8">
+            <div class="flex flex-col gap-4 bg-[#17002E] rounded-lg p-7">
+                <div class="flex gap-3 items-center">
+                    <img src="assets/img/icons/flower.svg" alt="flower">
+                    <p class="text-lg font-bold text-center  text-white">Beauty and cosmetics</p>
+                </div>
+                <p class="text-white w-11/12">Discover relevant products. Push samples. Upsell and replenish.</p>
+                <a href="#" class="text-white pb border-b-2 border-white w-fit">Explore our solutions for beauty and
+                    cosmetics.</a>
+            </div>
+            <div class="flex flex-col gap-4 bg-[#17002E] rounded-lg p-7">
+                <div class="flex gap-3 items-center">
+                    <img src="assets/img/icons/fashion.svg" alt="flower">
+                    <p class="text-lg font-bold text-center  text-white">Fashion</p>
+                </div>
+                <p class="text-white w-11/12 grow">Supercharge merchandising. Reach your best customers.</p>
+                <a href="#" class="text-white pb border-b-2 border-white w-fit">Explore our solutions for fashion.</a>
+            </div>
+            <div class="flex flex-col gap-4 bg-[#17002E] rounded-lg p-7">
+                <div class="flex gap-3 items-center">
+                    <img src="assets/img/icons/lux.svg" alt="flower">
+                    <p class="text-lg font-bold text-center  text-white">Luxury</p>
+                </div>
+                <p class="text-white w-11/12">Drive brand experience online. Look after your VIPs.</p>
+                <a href="#" class="text-white pb border-b-2 border-white w-fit">Explore our solutions for luxury.</a>
+            </div>
+            <div class="flex flex-col gap-4 bg-[#17002E] rounded-lg p-7">
+                <div class="flex gap-3 items-center">
+                    <img src="assets/img/icons/air.svg" alt="flower">
+                    <p class="text-lg font-bold text-center  text-white">Airlines</p>
+                </div>
+                <p class="text-white w-11/12">Increase loyalty. Boost ancillary sales. Capture every opportunity.</p>
+                <a href="#" class="text-white pb border-b-2 border-white w-fit">Explore our solutions for airlines.</a>
+            </div>
+            <div class="flex flex-col gap-4 bg-[#17002E] rounded-lg p-7">
+                <div class="flex gap-3 items-center">
+                    <img src="assets/img/icons/travel.svg" alt="flower">
+                    <p class="text-lg font-bold text-center  text-white">Travel & tourism</p>
+                </div>
+                <p class="text-white w-11/12">Be persuasive. Inspire travellers. Drive revenue.</p>
+                <a href="#" class="text-white pb border-b-2 border-white w-fit">Explore our solutions for travel and
+                    tourism.</a>
+            </div>
+            <div class="flex flex-col gap-4 bg-[#17002E] rounded-lg p-7">
+                <div class="flex gap-3 items-center">
+                    <img src="assets/img/icons/bet.svg" alt="flower">
+                    <p class="text-lg font-bold text-center  text-white">Online betting</p>
+                </div>
+                <p class="text-white w-11/12">Bring events to life. Personalize in real time. Be responsible.</p>
+                <a href="#" class="text-white pb border-b-2 border-white w-fit">Explore our solutions for online
+                    betting.</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[#F5F5F5] py-14 mt-20">
+        <div class="xl:container xl:mx-auto xl:px-0 px-3 gap-16 flex justify-between">
+            <div class="flex flex-col my-auto md:w-1/2 w-full items-center gap-10">
+                <p class="font-bold text-4xl">A connected ecosystem.</p>
+                <div class="flex flex-col gap-3">
+                    <p>The Qubit personalization platform is designed with enterprise and high-growth businesses in
+                        mind.</p>
+                    <p class="leading-6">Our open ecosystem approach means you can connect any data source and deliver
+                        personalization across any channel.</p>
+                </div>
+                <a href="#"
+                    class="rounded-full px-10 py-3 bg-[#6F2CFF] text-white hover:bg-[#5e21e3] transition-all delay-100 duration-300 font-bold w-fit">See
+                    our integrations</a>
+            </div>
+            <div class="md:w-1/2 justify-end md:flex hidden">
+                <img src="assets/img/bg/eco.png" alt="eco" class="w-fit">
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[url('assets/img/bg/bg2.png')] bg-cover bg-no-repeat bg-center py-20">
+        <div class="xl:container xl:mx-auto xl:px-0 px-3 flex flex-col items-center justify-center gap-6">
+            <p class="text-white text-4xl font-bold">Book a demo today.</p>
+            <div class="flex md:w-1/3 w-4/5">
+                <input type="text"
+                    class="border-2 border-[#6F2CFF] rounded-tl-full rounded-bl-full md:py-3 py-2 px-6 w-2/3 focus:border-[#5e21e3] focus:outline-none"
+                    placeholder="Enter your email">
+                <button class="bg-[#6F2CFF] w-1/3 md:py-3 p rounded-tr-full rounded-br-full text-white">Book a demo</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="flex flex-col">
+        <div class="xl:container xl:mx-auto xl:px-0 px-3 flex flex-col items-center gap-8 my-6">
+            <p>Connect with us</p>
+            <div class="flex gap-6 items-center justify-between">
+                <a href="#"><img src="assets/img/icons/facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="assets/img/icons/twitter.svg" alt="twitter"></a>
+                <a href="#"><img src="assets/img/icons/in.svg" alt="in"></a>
+                <a href="#"><img src="assets/img/icons/inst.svg" alt="inst"></a>
+                <a href="#"><img src="assets/img/icons/youtube.svg" alt="youtube"></a>
+            </div>
+        </div>
+        <div class="w-full bg-[#20003C] py-12">
+            <div class="grid lg:grid-cols-6 lg:gap-10 md:grid-cols-3 md:gap-10 grid-cols-2 gap-6 xl:container xl:mx-auto xl:px-0 px-3">
+                <div class="flex flex-col col-span-2">
+                    <p class="mb-5 font-bold text-white">Featured Capabilities</p>
+                    <div class="flex md:gap-10 gap-6">
+                        <div class="flex flex-col md:gap-3 gap-1 text-white text-sm w-1/2">
+                            <a href="#">A/B testing</a>
+                            <a href="#">Abandonment recovery</a>
+                            <a href="#">Customer insights</a>
+                            <a href="#">Customer polling and feedback</a>
+                            <a href="#">Customer segmentation</a>
+                            <a href="#">Data collection</a>
+                            <a href="#">Ecommerce merchandising</a>
+                        </div>
+                        <div class="flex flex-col md:gap-3 gap-1 text-white text-sm w-1/2">
+                            <a href="#">Custom machine learning</a>
+                            <a href="#">Journey Personalization</a>
+                            <a href="#">Mobile app personalization</a>
+                            <a href="#">Cross-channel personalization</a>
+                            <a href="#">Social proofing</a>
+                            <a href="#">Website personalization</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <p class="mb-5 font-bold text-white">Products</p>
+                    <div class="flex flex-col md:gap-3 gap-1 text-white text-sm">
+                        <a href="#">1:1 Product recommendations</a>
+                        <a href="#">1:1 Product badging</a>
+                        <a href="#">1:1 Journey personalization</a>
+                        <a href="#">Personalized content</a>
+                        <a href="#">Product insights</a>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <p class="mb-5 font-bold text-white">Resources</p>
+                    <div class="flex flex-col md:gap-3 gap-1 text-white text-sm">
+                        <a href="#">Resources</a>
+                        <a href="#">Customers</a>
+                        <a href="#">Qubit Blog.</a>
+                        <a href="#">Glossary</a>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <p class="mb-5 font-bold text-white">Company</p>
+                    <div class="flex flex-col md:gap-3 gap-1 text-white text-sm">
+                        <a href="#">Why Qubit?</a>
+                        <a href="#">About us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Press</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <p class="mb-5 font-bold text-white">Working with us</p>
+                    <div class="flex flex-col md:gap-3 gap-1 text-white text-sm">
+                        <a href="#">Legal</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center gap-4">
+                <img src="assets/img/icons/logoW.svg" alt="logo">
+                <p class="text-white text-sm">© 2021 Qubit. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
